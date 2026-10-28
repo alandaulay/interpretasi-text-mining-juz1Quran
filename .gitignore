@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+
+# Local data and generated analysis outputs
+data/raw/
+data/outputs/
+notebooks/data/outputs/
+
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
